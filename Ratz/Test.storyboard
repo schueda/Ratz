@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3q1-cB-vPT">
+                                <rect key="frame" x="25" y="49" width="92" height="41"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="25"/>
+                                <state key="normal" title="&lt; voltar">
+                                    <color key="titleColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O cachorro andou pelo morro" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lk9-Qi-kqc">
+                                <rect key="frame" x="32" y="146" width="350" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="U30-Ie-9uC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="36"/>
+                                <color key="textColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6m-IE-p2j">
+                                <rect key="frame" x="32" y="337" width="350" height="70"/>
+                                <color key="backgroundColor" red="0.76078431372549016" green="0.77254901960784317" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="f8u-8X-luc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="25"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vgy-kw-cna">
+                                <rect key="frame" x="32" y="417" width="350" height="70"/>
+                                <color key="backgroundColor" red="0.76078431372549016" green="0.77254901960784317" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="zXK-3G-dda"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="25"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bY-Uj-dRw">
+                                <rect key="frame" x="32" y="497" width="350" height="70"/>
+                                <color key="backgroundColor" red="0.76078431372549016" green="0.77254901960784317" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="Czf-dX-gS9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="25"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7c-oh-g1J">
+                                <rect key="frame" x="32" y="577" width="350" height="70"/>
+                                <color key="backgroundColor" red="0.76078431372549016" green="0.77254901960784317" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="GDL-IG-xtO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="25"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAU-Ir-lkC">
+                                <rect key="frame" x="32" y="758" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wWN-fP-nFr">
+                                <rect key="frame" x="336" y="758" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="MBZ-of-v7W">
+                                <rect key="frame" x="32" y="803" width="350" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="1zk-ky-X0U"/>
+                                </constraints>
+                            </progressView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.71372549019999998" green="0.67843137249999996" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MBZ-of-v7W" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="1KU-CD-vER"/>
+                            <constraint firstItem="3q1-cB-vPT" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="25" id="87l-ei-odY"/>
+                            <constraint firstItem="0bY-Uj-dRw" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="AZN-Lz-LWm"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Vgy-kw-cna" secondAttribute="trailing" constant="32" id="Avb-ta-XAb"/>
+                            <constraint firstItem="UAU-Ir-lkC" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="Bcb-3a-SxZ"/>
+                            <constraint firstItem="R7c-oh-g1J" firstAttribute="top" secondItem="0bY-Uj-dRw" secondAttribute="bottom" constant="10" id="DID-Z3-tSz"/>
+                            <constraint firstItem="MBZ-of-v7W" firstAttribute="top" secondItem="UAU-Ir-lkC" secondAttribute="bottom" constant="15" id="EnO-pS-BXG"/>
+                            <constraint firstItem="r6m-IE-p2j" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="Gr7-ex-gma"/>
+                            <constraint firstItem="R7c-oh-g1J" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="J0t-2x-j7m"/>
+                            <constraint firstItem="r6m-IE-p2j" firstAttribute="top" secondItem="Lk9-Qi-kqc" secondAttribute="bottom" constant="101" id="K5e-xL-2h0"/>
+                            <constraint firstItem="wWN-fP-nFr" firstAttribute="leading" secondItem="MBZ-of-v7W" secondAttribute="trailing" constant="-46" id="PXV-ht-Dof"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="r6m-IE-p2j" secondAttribute="trailing" constant="32" id="Pj3-An-83Y"/>
+                            <constraint firstItem="0bY-Uj-dRw" firstAttribute="top" secondItem="Vgy-kw-cna" secondAttribute="bottom" constant="10" id="S7F-tw-eHf"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="0bY-Uj-dRw" secondAttribute="trailing" constant="32" id="YMh-kF-qAA"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="R7c-oh-g1J" secondAttribute="trailing" constant="32" id="caT-sZ-Ff8"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="MBZ-of-v7W" secondAttribute="bottom" constant="44" id="cqE-eH-Qa6"/>
+                            <constraint firstItem="Vgy-kw-cna" firstAttribute="top" secondItem="r6m-IE-p2j" secondAttribute="bottom" constant="10" id="fnZ-cx-lRC"/>
+                            <constraint firstItem="Lk9-Qi-kqc" firstAttribute="top" secondItem="3q1-cB-vPT" secondAttribute="bottom" constant="56" id="gdJ-nn-6HL"/>
+                            <constraint firstItem="3q1-cB-vPT" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="5" id="heb-pR-RF4"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="MBZ-of-v7W" secondAttribute="trailing" constant="32" id="iBT-cp-aeK"/>
+                            <constraint firstItem="Lk9-Qi-kqc" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="n9T-QQ-h5R"/>
+                            <constraint firstItem="MBZ-of-v7W" firstAttribute="top" secondItem="wWN-fP-nFr" secondAttribute="bottom" constant="15" id="p3z-cb-jyW"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Lk9-Qi-kqc" secondAttribute="trailing" constant="32" id="wmd-7P-UNt"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="wWN-fP-nFr" secondAttribute="trailing" constant="32" id="wp6-33-6Qg"/>
+                            <constraint firstItem="Vgy-kw-cna" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="xFH-T1-7DQ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="130.58035714285714"/>
+        </scene>
+    </scenes>
+</document>

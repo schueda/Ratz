@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		6108942726B1827300705F54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108942626B1827300705F54 /* AppDelegate.swift */; };
 		6108942926B1827300705F54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108942826B1827300705F54 /* SceneDelegate.swift */; };
-		6108942B26B1827300705F54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108942A26B1827300705F54 /* ViewController.swift */; };
+		6108942B26B1827300705F54 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108942A26B1827300705F54 /* HomeViewController.swift */; };
 		6108942E26B1827300705F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6108942C26B1827300705F54 /* Main.storyboard */; };
 		6108943026B1827500705F54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6108942F26B1827500705F54 /* Assets.xcassets */; };
 		6108943326B1827500705F54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6108943126B1827500705F54 /* LaunchScreen.storyboard */; };
+		6108943B26B18D4500705F54 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108943A26B18D4500705F54 /* QuizViewController.swift */; };
+		6108943D26B18D6400705F54 /* Quiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6108943C26B18D6400705F54 /* Quiz.storyboard */; };
+		6108943F26B195FE00705F54 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108943E26B195FE00705F54 /* TestViewController.swift */; };
+		6108944126B1960C00705F54 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6108944026B1960C00705F54 /* Test.storyboard */; };
+		6108944326B19CBA00705F54 /* CustomProgessBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108944226B19CBA00705F54 /* CustomProgessBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6108942326B1827300705F54 /* Ratz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6108942626B1827300705F54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6108942826B1827300705F54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6108942A26B1827300705F54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6108942A26B1827300705F54 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		6108942D26B1827300705F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6108942F26B1827500705F54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6108943226B1827500705F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6108943426B1827500705F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6108943A26B18D4500705F54 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		6108943C26B18D6400705F54 /* Quiz.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Quiz.storyboard; sourceTree = "<group>"; };
+		6108943E26B195FE00705F54 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		6108944026B1960C00705F54 /* Test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
+		6108944226B19CBA00705F54 /* CustomProgessBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgessBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				6108942626B1827300705F54 /* AppDelegate.swift */,
 				6108942826B1827300705F54 /* SceneDelegate.swift */,
-				6108942A26B1827300705F54 /* ViewController.swift */,
+				6108942A26B1827300705F54 /* HomeViewController.swift */,
 				6108942C26B1827300705F54 /* Main.storyboard */,
 				6108942F26B1827500705F54 /* Assets.xcassets */,
 				6108943126B1827500705F54 /* LaunchScreen.storyboard */,
 				6108943426B1827500705F54 /* Info.plist */,
+				6108943A26B18D4500705F54 /* QuizViewController.swift */,
+				6108943C26B18D6400705F54 /* Quiz.storyboard */,
+				6108943E26B195FE00705F54 /* TestViewController.swift */,
+				6108944026B1960C00705F54 /* Test.storyboard */,
+				6108944226B19CBA00705F54 /* CustomProgessBar.swift */,
 			);
 			path = Ratz;
 			sourceTree = "<group>";
@@ -127,6 +142,8 @@
 				6108943326B1827500705F54 /* LaunchScreen.storyboard in Resources */,
 				6108943026B1827500705F54 /* Assets.xcassets in Resources */,
 				6108942E26B1827300705F54 /* Main.storyboard in Resources */,
+				6108943D26B18D6400705F54 /* Quiz.storyboard in Resources */,
+				6108944126B1960C00705F54 /* Test.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6108942B26B1827300705F54 /* ViewController.swift in Sources */,
+				6108943F26B195FE00705F54 /* TestViewController.swift in Sources */,
+				6108942B26B1827300705F54 /* HomeViewController.swift in Sources */,
 				6108942726B1827300705F54 /* AppDelegate.swift in Sources */,
 				6108942926B1827300705F54 /* SceneDelegate.swift in Sources */,
+				6108944326B19CBA00705F54 /* CustomProgessBar.swift in Sources */,
+				6108943B26B18D4500705F54 /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

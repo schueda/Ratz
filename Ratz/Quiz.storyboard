@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtq-0Q-peb">
+                                <rect key="frame" x="25" y="49" width="92" height="41"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="25"/>
+                                <state key="normal" title="&lt; voltar">
+                                    <color key="titleColor" red="0.25490196078431371" green="0.28235294117647058" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O cachorro andou pelo morro" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUh-Hw-y4J">
+                                <rect key="frame" x="32" y="146" width="350" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="QWj-n2-qJP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="36"/>
+                                <color key="textColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8wu-hQ-Vb1">
+                                <rect key="frame" x="32" y="337" width="46" height="46"/>
+                                <color key="backgroundColor" red="0.76078431372549016" green="0.77254901960784317" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8wu-hQ-Vb1" secondAttribute="height" multiplier="1:1" id="40w-2R-r5W"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9a3-oC-be9">
+                                <rect key="frame" x="336" y="337" width="46" height="46"/>
+                                <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9a3-oC-be9" secondAttribute="height" multiplier="1:1" id="6Z1-Pz-gm2"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZs-NO-0zd">
+                                <rect key="frame" x="32" y="393" width="46" height="46"/>
+                                <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="HZs-NO-0zd" secondAttribute="height" multiplier="1:1" id="zYN-pt-vvi"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gmm-zs-lfd">
+                                <rect key="frame" x="336" y="393" width="46" height="46"/>
+                                <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Gmm-zs-lfd" secondAttribute="height" multiplier="1:1" id="Ad2-CJ-KeW"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.71372549019607845" green="0.67843137254901964" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HZs-NO-0zd" firstAttribute="width" secondItem="HZs-NO-0zd" secondAttribute="height" multiplier="1:1" id="975-ZY-jcc"/>
+                            <constraint firstItem="8wu-hQ-Vb1" firstAttribute="top" secondItem="dUh-Hw-y4J" secondAttribute="bottom" constant="101" id="B1q-0G-Rj3"/>
+                            <constraint firstItem="9a3-oC-be9" firstAttribute="top" secondItem="dUh-Hw-y4J" secondAttribute="bottom" constant="101" id="Csd-35-qKQ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="dUh-Hw-y4J" secondAttribute="trailing" constant="32" id="QVa-Iy-mlx"/>
+                            <constraint firstItem="jtq-0Q-peb" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="5" id="XR2-zT-48v"/>
+                            <constraint firstItem="8wu-hQ-Vb1" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="cBo-zt-BoD"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="9a3-oC-be9" secondAttribute="trailing" constant="32" id="dh3-rc-Zds"/>
+                            <constraint firstItem="Gmm-zs-lfd" firstAttribute="top" secondItem="9a3-oC-be9" secondAttribute="bottom" constant="10" id="ekg-Ud-PvS"/>
+                            <constraint firstItem="dUh-Hw-y4J" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="gOZ-BL-TWA"/>
+                            <constraint firstItem="jtq-0Q-peb" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="25" id="hYa-JT-tAj"/>
+                            <constraint firstItem="HZs-NO-0zd" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="l56-el-2Qm"/>
+                            <constraint firstItem="Gmm-zs-lfd" firstAttribute="width" secondItem="Gmm-zs-lfd" secondAttribute="height" multiplier="1:1" id="lPR-Hj-2xT"/>
+                            <constraint firstItem="dUh-Hw-y4J" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="lZr-b8-ti7"/>
+                            <constraint firstItem="HZs-NO-0zd" firstAttribute="top" secondItem="8wu-hQ-Vb1" secondAttribute="bottom" constant="10" id="o5M-Tc-J1t"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Gmm-zs-lfd" secondAttribute="trailing" constant="32" id="pdt-BM-WWc"/>
+                            <constraint firstItem="dUh-Hw-y4J" firstAttribute="top" secondItem="jtq-0Q-peb" secondAttribute="bottom" constant="56" id="rrJ-HP-dCA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="130.58035714285714"/>
+        </scene>
+    </scenes>
+</document>
