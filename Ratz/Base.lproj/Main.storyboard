@@ -32,6 +32,9 @@
                                 <state key="normal" title="Ranking">
                                     <color key="titleColor" red="0.64313725489999995" green="0.67450980390000004" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="touchedRanking:" destination="BYZ-38-t0r" eventType="touchUpInside" id="doa-lL-Ov5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1a3-C2-XPE">
                                 <rect key="frame" x="32" y="612" width="350" height="70"/>
@@ -44,7 +47,7 @@
                                     <color key="titleColor" red="0.64313725489999995" green="0.67450980390000004" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="PresentTest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fyq-Uk-dhW"/>
+                                    <action selector="touchedTest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9i3-VS-Aje"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OB0-Hc-U4w">
@@ -57,6 +60,9 @@
                                 <state key="normal" title="Qual rato eu sou?">
                                     <color key="titleColor" red="0.64313725489999995" green="0.67450980390000004" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="touchedQuiz:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LTK-JL-VAV"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
