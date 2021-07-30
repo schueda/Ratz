@@ -15,10 +15,14 @@
 		6108943326B1827500705F54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6108943126B1827500705F54 /* LaunchScreen.storyboard */; };
 		6108943B26B18D4500705F54 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108943A26B18D4500705F54 /* QuizViewController.swift */; };
 		6108943D26B18D6400705F54 /* Quiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6108943C26B18D6400705F54 /* Quiz.storyboard */; };
-		6108943F26B195FE00705F54 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108943E26B195FE00705F54 /* TestViewController.swift */; };
 		6108944126B1960C00705F54 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6108944026B1960C00705F54 /* Test.storyboard */; };
 		6108944B26B2E96800705F54 /* Ranking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6108944A26B2E96800705F54 /* Ranking.storyboard */; };
 		6108944D26B2E99000705F54 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108944C26B2E99000705F54 /* RankingViewController.swift */; };
+		6108944F26B3320C00705F54 /* QuizResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6108944E26B3320C00705F54 /* QuizResultViewController.swift */; };
+		6108945126B3321900705F54 /* QuizResult.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6108945026B3321900705F54 /* QuizResult.storyboard */; };
+		61AF196E26B4225A00F82A5A /* TestResult.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61AF196D26B4225A00F82A5A /* TestResult.storyboard */; };
+		61AF197026B4227F00F82A5A /* TestResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF196F26B4227F00F82A5A /* TestResultViewController.swift */; };
+		61AF197226B432AF00F82A5A /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AF197126B432AF00F82A5A /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +36,14 @@
 		6108943426B1827500705F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6108943A26B18D4500705F54 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		6108943C26B18D6400705F54 /* Quiz.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Quiz.storyboard; sourceTree = "<group>"; };
-		6108943E26B195FE00705F54 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		6108944026B1960C00705F54 /* Test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
 		6108944A26B2E96800705F54 /* Ranking.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ranking.storyboard; sourceTree = "<group>"; };
 		6108944C26B2E99000705F54 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		6108944E26B3320C00705F54 /* QuizResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultViewController.swift; sourceTree = "<group>"; };
+		6108945026B3321900705F54 /* QuizResult.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QuizResult.storyboard; sourceTree = "<group>"; };
+		61AF196D26B4225A00F82A5A /* TestResult.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestResult.storyboard; sourceTree = "<group>"; };
+		61AF196F26B4227F00F82A5A /* TestResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultViewController.swift; sourceTree = "<group>"; };
+		61AF197126B432AF00F82A5A /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +85,14 @@
 				6108943426B1827500705F54 /* Info.plist */,
 				6108943A26B18D4500705F54 /* QuizViewController.swift */,
 				6108943C26B18D6400705F54 /* Quiz.storyboard */,
-				6108943E26B195FE00705F54 /* TestViewController.swift */,
 				6108944026B1960C00705F54 /* Test.storyboard */,
-				6108944A26B2E96800705F54 /* Ranking.storyboard */,
+				61AF197126B432AF00F82A5A /* TestViewController.swift */,
 				6108944C26B2E99000705F54 /* RankingViewController.swift */,
+				6108944A26B2E96800705F54 /* Ranking.storyboard */,
+				6108944E26B3320C00705F54 /* QuizResultViewController.swift */,
+				6108945026B3321900705F54 /* QuizResult.storyboard */,
+				61AF196F26B4227F00F82A5A /* TestResultViewController.swift */,
+				61AF196D26B4225A00F82A5A /* TestResult.storyboard */,
 			);
 			path = Ratz;
 			sourceTree = "<group>";
@@ -142,8 +154,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6108945126B3321900705F54 /* QuizResult.storyboard in Resources */,
 				6108943326B1827500705F54 /* LaunchScreen.storyboard in Resources */,
 				6108944B26B2E96800705F54 /* Ranking.storyboard in Resources */,
+				61AF196E26B4225A00F82A5A /* TestResult.storyboard in Resources */,
 				6108943026B1827500705F54 /* Assets.xcassets in Resources */,
 				6108942E26B1827300705F54 /* Main.storyboard in Resources */,
 				6108943D26B18D6400705F54 /* Quiz.storyboard in Resources */,
@@ -158,12 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6108943F26B195FE00705F54 /* TestViewController.swift in Sources */,
 				6108942B26B1827300705F54 /* HomeViewController.swift in Sources */,
 				6108942726B1827300705F54 /* AppDelegate.swift in Sources */,
+				61AF197226B432AF00F82A5A /* TestViewController.swift in Sources */,
 				6108944D26B2E99000705F54 /* RankingViewController.swift in Sources */,
 				6108942926B1827300705F54 /* SceneDelegate.swift in Sources */,
 				6108943B26B18D4500705F54 /* QuizViewController.swift in Sources */,
+				6108944F26B3320C00705F54 /* QuizResultViewController.swift in Sources */,
+				61AF197026B4227F00F82A5A /* TestResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

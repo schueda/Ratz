@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Test View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="TestViewController" customModule="Ratz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,6 +21,9 @@
                                 <state key="normal" title="&lt; voltar">
                                     <color key="titleColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="backTouched:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="chX-zA-SKJ"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LGB-WU-fXg">
                                 <rect key="frame" x="32" y="577" width="311" height="80"/>
@@ -48,6 +51,9 @@
                                                 <state key="normal" title="Próximo">
                                                     <color key="titleColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="nextButtonTouched:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="n13-TV-MVy"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -127,6 +133,13 @@
                                     <constraint firstItem="IVX-d6-4C1" firstAttribute="leading" secondItem="abu-Dw-UQH" secondAttribute="leading" id="niP-c3-3QV"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KfC-6C-3On">
+                                <rect key="frame" x="275" y="30" width="75" height="36"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                <state key="normal" title="erros: 0">
+                                    <color key="titleColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" red="0.71372549019999998" green="0.67843137249999996" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -137,6 +150,8 @@
                             <constraint firstItem="3q1-cB-vPT" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="25" id="87l-ei-odY"/>
                             <constraint firstItem="AeG-a4-7Fh" firstAttribute="top" secondItem="abu-Dw-UQH" secondAttribute="bottom" constant="10" id="Ngc-vj-FvV"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="LGB-WU-fXg" secondAttribute="bottom" constant="10" id="QdJ-HO-6XR"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="KfC-6C-3On" secondAttribute="trailing" constant="25" id="W2W-CJ-zhC"/>
+                            <constraint firstItem="KfC-6C-3On" firstAttribute="bottom" secondItem="3q1-cB-vPT" secondAttribute="bottom" id="WTT-zf-iwZ"/>
                             <constraint firstItem="abu-Dw-UQH" firstAttribute="leading" secondItem="AeG-a4-7Fh" secondAttribute="leading" id="YCT-QP-uze"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="LGB-WU-fXg" secondAttribute="trailing" constant="32" id="Zv3-K6-uB7"/>
                             <constraint firstItem="AeG-a4-7Fh" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="ac7-yh-FBK"/>
@@ -146,6 +161,14 @@
                             <constraint firstItem="LGB-WU-fXg" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="kG4-Zf-jtO"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="firstButton" destination="r6m-IE-p2j" id="ieP-0h-tn9"/>
+                        <outlet property="lastButton" destination="R7c-oh-g1J" id="ibw-dE-voP"/>
+                        <outlet property="nextButton" destination="aRy-fS-CdB" id="Uxu-bN-V8u"/>
+                        <outlet property="previousButton" destination="ru8-CM-IGb" id="ecC-hC-pfF"/>
+                        <outlet property="secondButton" destination="Vgy-kw-cna" id="LyS-9s-Ja5"/>
+                        <outlet property="thirdButton" destination="0bY-Uj-dRw" id="pFH-Jh-i5C"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
