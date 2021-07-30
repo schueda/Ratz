@@ -17,10 +17,12 @@ class RankingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
+        tableView.register(PlayTableViewCell.self, forCellReuseIdentifier: "PlayCell")
         tableView.layer.cornerRadius = 10
-//        tableView.dataSource =  
-//        tableView.reloadData()
+        tableView.dataSource = dataSource
+        tableView.reloadData()
     }
     
 }
