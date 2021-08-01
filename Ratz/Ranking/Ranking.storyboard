@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,11 +12,11 @@
             <objects>
                 <viewController id="Y6W-OH-hqX" customClass="RankingViewController" customModule="Ratz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccZ-U4-tEy">
-                                <rect key="frame" x="25" y="69" width="92" height="41"/>
+                                <rect key="frame" x="25" y="25" width="92" height="41"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="25"/>
                                 <state key="normal" title="&lt; voltar">
                                     <color key="titleColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -26,36 +26,48 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lIC-qd-kt0">
-                                <rect key="frame" x="32" y="160" width="147" height="54"/>
+                                <rect key="frame" x="32" y="116" width="147" height="54"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="36"/>
                                 <state key="normal" title="Ranking">
                                     <color key="titleColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="c7m-Cz-Pcn">
-                                <rect key="frame" x="32" y="246" width="326" height="532"/>
+                                <rect key="frame" x="32" y="202" width="350" height="502"/>
                                 <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="separatorColor" red="0.64313725490196072" green="0.67450980392156867" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="separatorInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PlayTableViewCell" rowHeight="56" id="5nt-pD-wrp" customClass="PlayTableViewCell" customModule="Ratz" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24.333333969116211" width="326" height="56"/>
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="350" height="56"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5nt-pD-wrp" id="QbI-Bs-BtQ" customClass="PlayTableViewCell" customModule="Ratz" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="0.0" width="326" height="56"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="350" height="56"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y1T-lZ-CFA">
-                                                    <rect key="frame" x="0.0" y="0.0" width="326" height="56"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="350" height="56"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qJU-9s-FQ2">
-                                                            <rect key="frame" x="243.66666666666666" y="0.0" width="52.333333333333343" height="56"/>
+                                                            <rect key="frame" x="210" y="0.0" width="52.666666666666686" height="56"/>
                                                             <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
                                                             <color key="textColor" red="0.396078431372549" green="0.42745098039215684" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V2T-VZ-d5W">
-                                                            <rect key="frame" x="21" y="0.0" width="62.666666666666657" height="56"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V2T-VZ-d5W">
+                                                            <rect key="frame" x="80" y="0.0" width="130" height="56"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="130" id="Deh-hH-E7M"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="24"/>
+                                                            <color key="textColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20°" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JyC-gt-qCL">
+                                                            <rect key="frame" x="30" y="0.0" width="50" height="56"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="50" id="ouQ-U4-aHg"/>
+                                                            </constraints>
                                                             <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="24"/>
                                                             <color key="textColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -63,11 +75,14 @@
                                                     </subviews>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="56" id="CGY-jI-Wfq"/>
-                                                        <constraint firstAttribute="trailing" secondItem="qJU-9s-FQ2" secondAttribute="trailing" constant="30" id="Q8Z-eu-ZHz"/>
-                                                        <constraint firstItem="V2T-VZ-d5W" firstAttribute="leading" secondItem="y1T-lZ-CFA" secondAttribute="leading" constant="30" id="WqR-jd-u88"/>
+                                                        <constraint firstItem="JyC-gt-qCL" firstAttribute="leading" secondItem="y1T-lZ-CFA" secondAttribute="leading" constant="30" id="J6J-C8-RYf"/>
+                                                        <constraint firstAttribute="bottom" secondItem="JyC-gt-qCL" secondAttribute="bottom" id="Mye-OJ-Zwf"/>
+                                                        <constraint firstItem="V2T-VZ-d5W" firstAttribute="leading" secondItem="JyC-gt-qCL" secondAttribute="trailing" id="Uzz-EI-O85"/>
                                                         <constraint firstAttribute="bottom" secondItem="qJU-9s-FQ2" secondAttribute="bottom" id="a5Q-r3-7G6"/>
                                                         <constraint firstAttribute="bottom" secondItem="V2T-VZ-d5W" secondAttribute="bottom" id="aet-Dd-Om0"/>
+                                                        <constraint firstItem="JyC-gt-qCL" firstAttribute="top" secondItem="y1T-lZ-CFA" secondAttribute="top" id="eC1-UO-1ho"/>
                                                         <constraint firstItem="qJU-9s-FQ2" firstAttribute="top" secondItem="y1T-lZ-CFA" secondAttribute="top" id="rQl-ob-eyf"/>
+                                                        <constraint firstItem="qJU-9s-FQ2" firstAttribute="leading" secondItem="V2T-VZ-d5W" secondAttribute="trailing" id="uvz-8C-8hX"/>
                                                         <constraint firstItem="V2T-VZ-d5W" firstAttribute="top" secondItem="y1T-lZ-CFA" secondAttribute="top" id="v9w-Eo-w2y"/>
                                                     </constraints>
                                                 </view>
@@ -83,6 +98,7 @@
                                         <connections>
                                             <outlet property="missesLabel" destination="qJU-9s-FQ2" id="Icd-K2-Vmo"/>
                                             <outlet property="nameLabel" destination="V2T-VZ-d5W" id="Cqb-Lw-rqW"/>
+                                            <outlet property="positionLabel" destination="JyC-gt-qCL" id="mcc-GZ-aOP"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

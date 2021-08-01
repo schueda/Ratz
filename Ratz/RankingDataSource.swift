@@ -23,6 +23,7 @@ extension RankingDataSource: UITableViewDataSource {
         let play = plays[indexPath.row]
         cell.name = play.name
         cell.misses = play.misses
+        cell.position = indexPath.row + 1
         return cell
     }
     
