@@ -43,6 +43,9 @@
                                                 <state key="normal" title="Anterior">
                                                     <color key="titleColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="previousButtonTouched:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="pYw-VO-VdS"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRy-fS-CdB">
                                                 <rect key="frame" x="160.5" y="0.0" width="150.5" height="41"/>
@@ -81,6 +84,9 @@
                                         <state key="normal" title="Button">
                                             <color key="titleColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="firstButtonTouched:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Afw-D7-XpR"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vgy-kw-cna">
                                         <rect key="frame" x="0.0" y="80" width="311" height="70"/>
@@ -92,6 +98,9 @@
                                         <state key="normal" title="Button">
                                             <color key="titleColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="secondButtonTouched:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="rVX-uc-6ut"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bY-Uj-dRw">
                                         <rect key="frame" x="0.0" y="160" width="311" height="70"/>
@@ -103,6 +112,9 @@
                                         <state key="normal" title="Button">
                                             <color key="titleColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="thirdButtonTouched:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="4TY-f5-Wi2"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7c-oh-g1J">
                                         <rect key="frame" x="0.0" y="240" width="311" height="70"/>
@@ -114,6 +126,9 @@
                                         <state key="normal" title="Button">
                                             <color key="titleColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="lastButtonTouched:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="fPO-w2-DXZ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -133,13 +148,12 @@
                                     <constraint firstItem="IVX-d6-4C1" firstAttribute="leading" secondItem="abu-Dw-UQH" secondAttribute="leading" id="niP-c3-3QV"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KfC-6C-3On">
-                                <rect key="frame" x="275" y="30" width="75" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="erros: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DxO-m9-zlO">
+                                <rect key="frame" x="275.5" y="34" width="74.5" height="23.5"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
-                                <state key="normal" title="erros: 0">
-                                    <color key="titleColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
+                                <color key="textColor" red="0.396078431372549" green="0.42745098039215684" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" red="0.71372549019999998" green="0.67843137249999996" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -150,22 +164,25 @@
                             <constraint firstItem="3q1-cB-vPT" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="25" id="87l-ei-odY"/>
                             <constraint firstItem="AeG-a4-7Fh" firstAttribute="top" secondItem="abu-Dw-UQH" secondAttribute="bottom" constant="10" id="Ngc-vj-FvV"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="LGB-WU-fXg" secondAttribute="bottom" constant="10" id="QdJ-HO-6XR"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="KfC-6C-3On" secondAttribute="trailing" constant="25" id="W2W-CJ-zhC"/>
-                            <constraint firstItem="KfC-6C-3On" firstAttribute="bottom" secondItem="3q1-cB-vPT" secondAttribute="bottom" id="WTT-zf-iwZ"/>
                             <constraint firstItem="abu-Dw-UQH" firstAttribute="leading" secondItem="AeG-a4-7Fh" secondAttribute="leading" id="YCT-QP-uze"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="LGB-WU-fXg" secondAttribute="trailing" constant="32" id="Zv3-K6-uB7"/>
                             <constraint firstItem="AeG-a4-7Fh" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="ac7-yh-FBK"/>
                             <constraint firstItem="AeG-a4-7Fh" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="agA-0U-4Tq"/>
+                            <constraint firstItem="DxO-m9-zlO" firstAttribute="centerY" secondItem="3q1-cB-vPT" secondAttribute="centerY" id="b3R-3w-cUT"/>
                             <constraint firstItem="3q1-cB-vPT" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="25" id="heb-pR-RF4"/>
                             <constraint firstItem="abu-Dw-UQH" firstAttribute="top" secondItem="3q1-cB-vPT" secondAttribute="bottom" constant="10" id="k9V-e8-3kM"/>
                             <constraint firstItem="LGB-WU-fXg" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="kG4-Zf-jtO"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="DxO-m9-zlO" secondAttribute="trailing" constant="25" id="oe7-cN-vFj"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="firstButton" destination="r6m-IE-p2j" id="ieP-0h-tn9"/>
                         <outlet property="lastButton" destination="R7c-oh-g1J" id="ibw-dE-voP"/>
+                        <outlet property="mistakesLabel" destination="DxO-m9-zlO" id="JOM-fG-0ab"/>
                         <outlet property="nextButton" destination="aRy-fS-CdB" id="Uxu-bN-V8u"/>
                         <outlet property="previousButton" destination="ru8-CM-IGb" id="ecC-hC-pfF"/>
+                        <outlet property="progressBar" destination="R2J-gm-idO" id="6ge-Vx-55M"/>
+                        <outlet property="questionLabel" destination="IVX-d6-4C1" id="Ve4-te-cp7"/>
                         <outlet property="secondButton" destination="Vgy-kw-cna" id="LyS-9s-Ja5"/>
                         <outlet property="thirdButton" destination="0bY-Uj-dRw" id="pFH-Jh-i5C"/>
                     </connections>

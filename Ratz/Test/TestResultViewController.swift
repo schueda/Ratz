@@ -8,11 +8,17 @@
 import UIKit
 
 class TestResultViewController: UIViewController, UITextFieldDelegate {
+    let rankingRepository: RankingRepository = UsersDefaultRankingRepository()
+    
+    @IBOutlet weak var mistakesLabel: UILabel!
     
     @IBOutlet weak var container: UIView!
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var submitButton: UIButton!
+    
     @IBOutlet weak var feedbackLabel: UILabel!
+    
+    var mistakes = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,9 +26,9 @@ class TestResultViewController: UIViewController, UITextFieldDelegate {
         textField.smartInsertDeleteType = UITextSmartInsertDeleteType.no
         textField.delegate = self
         
-        setupButton(submitButton)
-        disableButton(submitButton)
+        mistakesLabel.text = mistakes == 1 ? "1 erro" : "\(mistakes) erros"
         
+        setupButton(submitButton)
         setupContainer(container)
     }
     
@@ -37,6 +43,7 @@ class TestResultViewController: UIViewController, UITextFieldDelegate {
     
     func setupButton(_ button: UIButton) {
         button.layer.cornerRadius = 5
+        disableButton(submitButton)
     }
     
     func disableButton(_ button: UIButton) {
@@ -62,6 +69,15 @@ class TestResultViewController: UIViewController, UITextFieldDelegate {
         self.view.window?.rootViewController?.dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func submitTouched(_ sender: Any) {
+        let position = rankingRepository.save(play: Play(name: textField.text ?? "NoName", misses: mistakes))
+        feedbackLabel.text = "\(textField.text ?? "Você") está em \(position + 1)° no raking"
+        feedbackLabel.alpha = 1
+        
+        mistakesLabel.alpha = 0
+        textField.alpha = 0
+        submitButton.alpha = 0
+    }
     
     @IBAction func nameChanged(_ sender: Any) {
         if let textFieldText = textField.text {
@@ -72,6 +88,8 @@ class TestResultViewController: UIViewController, UITextFieldDelegate {
             }
         }
     }
+    
+    
     
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {

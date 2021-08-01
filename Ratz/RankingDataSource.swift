@@ -12,7 +12,8 @@ class RankingDataSource: NSObject {
     let plays: [Play]
     
     init(plays: [Play]) {
-        self.plays = plays.sorted(by: <)
+        self.plays = plays
+        print(plays)
     }
 }
 

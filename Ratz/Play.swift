@@ -7,9 +7,14 @@
 
 import Foundation
 
-struct Play {
+struct Play: Codable {
     let name: String
     let misses: Int
+    
+    init(name: String, misses: Int) {
+        self.name = name
+        self.misses = misses
+    }
 }
 
 extension Play: Comparable {

@@ -21,6 +21,9 @@
                                 <state key="normal" title="&lt; voltar">
                                     <color key="titleColor" red="0.25490196079999999" green="0.28235294119999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="backTouched:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="oQ2-5K-hrQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lIC-qd-kt0">
                                 <rect key="frame" x="32" y="160" width="147" height="54"/>
